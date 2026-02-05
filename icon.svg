@@ -1,0 +1,31 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="128" height="128" rx="28" fill="#111827"/>
+  
+  <!-- Content Page (Simplified) -->
+  <rect x="24" y="32" width="36" height="48" rx="4" stroke="white" stroke-width="4" opacity="0.4"/>
+  <line x1="30" y1="42" x2="54" y2="42" stroke="white" stroke-width="3" opacity="0.3"/>
+  <line x1="30" y1="52" x2="54" y2="52" stroke="white" stroke-width="3" opacity="0.3"/>
+  <line x1="30" y1="62" x2="44" y2="62" stroke="white" stroke-width="3" opacity="0.3"/>
+  
+  <!-- Extraction Arrow/Spark -->
+  <path d="M64 56L78 56L72 50M78 56L72 62" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Extracted Tasks -->
+  <g transform="translate(86, 36)">
+    <!-- Task 1 -->
+    <rect width="18" height="18" rx="4" stroke="white" stroke-width="3"/>
+    <path d="M4 9L8 13L14 5" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Task 2 -->
+    <rect y="26" width="18" height="18" rx="4" stroke="white" stroke-width="3"/>
+    <path d="M4 35L8 39L14 31" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Task 3 -->
+    <rect y="52" width="18" height="18" rx="4" stroke="white" stroke-width="3"/>
+    <path d="M4 61L8 65L14 57" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- AI Spark Decoration -->
+  <path d="M68 36L70 42L76 44L70 46L68 52L66 46L60 44L66 42L68 36Z" fill="white" opacity="0.8"/>
+</svg>
